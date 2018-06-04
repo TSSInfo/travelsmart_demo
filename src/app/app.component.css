@@ -1,0 +1,50 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+  
+  mat-card {
+    max-width: 80%;
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+  mat-toolbar-row {
+    justify-content: space-between;
+  }
+  
+  .done {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  }
+
+  .remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+
+  .fixed-header {
+    top: 0;
+    position: fixed;
+    z-index:999;
+  
+  }
+
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mat-sidenav-container {
+    background: rgba(0, 0, 0, 0.08);
+  }
+  
+  .blank-grow {
+    flex: 1 1 auto;
+  }
